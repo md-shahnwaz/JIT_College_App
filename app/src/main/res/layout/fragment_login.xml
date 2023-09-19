@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="fragments.Login"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/img_jit1"
+        android:layout_marginTop="60dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/background"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:hint="@string/enter_your_email"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/background"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:hint="@string/enter_password"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="25dp"
+        android:padding="6dp"
+        android:background="#189DE4"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

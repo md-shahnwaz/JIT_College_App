@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <group>
+        <item
+            android:title="UG Courses"/>
+        <item
+            android:title="College of Pharmacy"/>
+        <item
+            android:title="MBA"/>
+        <item
+            android:title="PG Diploma"/>
+        <item
+            android:title="Polytechnic"/>
+        <item
+            android:title="ITI"/>
+        <item
+            android:title="JIT Media"/>
+    </group>
+
+</menu>
